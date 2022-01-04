@@ -1,0 +1,57 @@
+.addEvent {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: wheat;
+    background-size: cover;
+    .addEvent-registerTitle {
+      font-size: 50px;
+    }
+    .addEvent-registerForm {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .addEvent-registerForm > label {
+      margin: 10px 0;
+    }
+    
+    .addEvent-registerInput {
+      padding: 10px;
+      background-color: white;
+      border: none;
+      border-radius: 10px;
+    }
+    
+    .addEvent-registerInput:focus {
+      outline: none;
+    }
+    
+    .addEvent-registerButton {
+      margin-top: 20px;
+      cursor: pointer;
+      background-color: teal;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      text-align: center;
+    }
+    
+    .addEvent-registerLoginButton {
+      background-color: lightcoral;
+      cursor: pointer;
+      padding: 10px;
+      border: none;
+      color: white;
+      border-radius: 10px;
+    }
+  }
+  
+  

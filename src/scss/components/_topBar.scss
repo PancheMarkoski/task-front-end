@@ -1,0 +1,32 @@
+.top {
+    min-width: 100%;
+    height: 46px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+    justify-content: center;
+    .topBarList {
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 46px;
+        position: fixed;
+        .topBarItem {
+            align-items: center;
+            height: 32px;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-family: "PT Sans Narrow";
+            padding: 0px 6px;
+            border-right: 2px solid #ebebeb;
+            cursor: pointer;
+            display: flex;
+            font-family: "Roboto";
+            &:hover {
+                background-color: #363636;
+                color: #fff;
+            }
+        }
+    }
+
+}
